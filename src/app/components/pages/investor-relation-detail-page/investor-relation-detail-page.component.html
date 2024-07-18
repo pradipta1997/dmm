@@ -1,0 +1,1087 @@
+<!-- NAVBAR -->
+<app-navbar></app-navbar>
+
+<div class="w-full">
+    <div class="pt-24">
+        <div class="lg:w-full" style="margin: 0 auto;">
+            <!-- Tab buttons -->
+            <div class="lg:flex lg:gap-9 lg:px-44 mb-4       grid grid-rows-4" style="background-color: #013A63;">
+
+                <button (click)="switchTab('tab-1')" data-tab="tab-1" class="px-2 py-2 my-2 mx-2 rounded-lg buttons" style="border: 2px solid white;">
+                    General Meeting of Shareholders
+                </button>
+
+                <button (click)="switchTab('tab-2')" data-tab="tab-2" class="px-2 py-2 my-2 mx-2 rounded-lg buttons" style="border: 2px solid white;">
+                    Public Expose
+                </button>
+
+                <button (click)="switchTab('tab-3')" data-tab="tab-3" class="px-2 py-2 my-2 mx-2 rounded-lg buttons" style="border: 2px solid white;">
+                    Annual Report
+                </button>
+
+                <button (click)="switchTab('tab-4')" data-tab="tab-4" class="px-2 py-2 my-2 mx-2 rounded-lg buttons" style="border: 2px solid white;">
+                    Financial Statements
+                </button>
+
+                <button (click)="switchTab('tab-5')" data-tab="tab-5" class="px-2 py-2 my-2 mx-2 rounded-lg buttons" style="border: 2px solid white;">
+                    Investor Bulletin
+                </button>
+
+                <button (click)="switchTab('tab-6')" data-tab="tab-6" class="px-2 py-2 my-2 mx-2 rounded-lg buttons" style="border: 2px solid white;">
+                    Prospectus
+                </button>
+
+            </div>
+
+            <!-- Tab content -->
+            <div class="p-4 rounded-lg">
+                <!-- Content for Tab 1 -->
+                <div class="tab-content text-center" id="tab-1">
+                    <div class="text-center">
+                        <p class="text-2xl" style="font-family: MontserratBLD;">General Meeting of Shareholders</p>
+                    </div>
+                    <div>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 class="text-lg" style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-16" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/Ringkasan-Risalah-RUPST-dan-RUPSLB-2024.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }} Bahasa
+                                            </button>
+                                        </a>
+
+                                        <a href="https://dmmrnd.id/img-dmm/docs/Summary-of-Minutes-of-AGMS-and-EGMS-2024.pdf" class="pl-3">
+                                            <button class="text-white lg:text-sm text-xs font-bold py-2 px-4 rounded" style="background-color: #013A63;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }} English
+                                            </button>
+                                        </a>
+
+                                        <p></p>
+                                         <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/39.Ringkasan-Risalah-RUPST-dan-RUPSLB-2024.jpg" alt="Ringkasan Risalah RUPST dan RUPSLB 2024" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 class="text-lg" style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-15" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/surat-kuasa-DMMX-institusi-RUPS-2024.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                         <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/37.surat-kuasa-DMMX-institusi-RUPS-2024.jpg" alt="SURAT DMMX INSTITUSI RUPS 2024" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 class="text-lg" style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-14" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/surat-kuasa-DMMX-Individu-RUPS-2024.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                         <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/36.surat-kuasa-DMMX-Individu-RUPS-2024.jpg" alt="SURAT KUASA DMMX INDIVIDU RUPS 2024" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 class="text-lg" style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-13" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/tata-tertib-RUPS-2024.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                         <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/35.tata-tertib-RUPS-2024.jpg" alt="Tata Tertib RUPS 2024" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 class="text-lg" style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-12" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/pemanggilan-RUPS-2024.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                         <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/34.pemanggilan-rups-2024.jpg" alt="Pemanggilan RUPS 2024" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 class="text-lg" style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-11" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/pengumuman-rups-dmmx-2024.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                         <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/33.pengumuman-rups-dmmx-2024.jpg" alt="Pengumuman RUPS 2024" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 class="text-lg" style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-1" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/pemanggilan-rups-2023.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                        <!-- <iframe src="https://dmmrnd.id/img-dmm/docs/pemanggilan-rups-2023.pdf" style="border:1px solid #acbccc; padding:1px; background:#ffffff; width:100%; max-width:100%; height:530px">
+                                            This browser does not support PDFs. Please download the PDF reader to view it<br>
+                                            <a href="https://get.adobe.com/reader/">Download Adobe Reader</a>
+                                        </iframe> -->
+                                         <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/1.Pemanggilan-RUPS-2023.jpg" alt="Pemanggilan RUPS 2023" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-2" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/pengumuman-rups-2023.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/2.Pengumuman-RUPS-2023.jpg" alt="Pengumuman RUPS 2023" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-3" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/risalah-rupst-2022.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/3.Risalah-RUPST-2022.jpg" alt="Risalah RUPST 2022" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-4" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/risalah-RUPSLB-2023-0616.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/4.Risalah-RUPSLB-2023.jpg" alt="Risalah RUPSLB 2023" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-5" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/Ringkasan-Risalah-RUPST-2023.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/27.Ringkasan-Risalah-RUST-2023.jpg" alt="RINGKASAN RISALAH RUPST 2023" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-6" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/pemanggilan-rups-2022.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/5.Pemanggilan-RUPS-2022.jpg" alt="Pemanggilan RUPS 2022" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-7" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/pengumuman-rups-2022.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/6.Pengumuman-RUPS-2022.jpg" alt="Pengumuman RUPS 2022" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-8" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/rups-2022.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/7.RUPS-2022.jpg" alt="RUPS 2022" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-9" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/announcment-2021.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/8.Announcement-2021.jpg" alt="Announcement 2021" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="middle" width="100%">
+                                        <p></p>
+                                        <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-GENERAL-MEETING-10" | translate }}</h3>
+                                        <a href="https://dmmrnd.id/img-dmm/docs/health-protocols-2021.pdf">
+                                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                                {{ "IR-BUTTON-DETAIL" | translate }}
+                                            </button>
+                                        </a>
+                                        <p></p>
+                                        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/9.Health-Protocols-2021.jpg" alt="Health Protocols 2021" style="border: 1px solid black;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div style="margin:20px"></div>
+
+                    </div>
+                </div>
+                <!-- Content for Tab 2 (hidden by default) -->
+                <div class="tab-content text-center hidden" id="tab-2">
+                    <div class="text-center">
+                        <p class="text-2xl" style="font-family: MontserratBLD;">Public Expose</p>   
+                    </div>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-PUBLIC-EXPOSE-2" | translate }}</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/HASIL-PUBLIC-EXPOSE-TAHUNAN-2024.pdf">
+                                        <button class="text-white lg:text-sm text-xs font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }} Bahasa
+                                        </button>
+                                    </a>
+
+                                    <a href="https://dmmrnd.id/img-dmm/docs/THE-ANNUAL-PUBLIC-EXPOSE-RESULT-2024.pdf" class="pl-3">
+                                        <button class="text-white lg:text-sm text-xs font-bold py-2 px-4 rounded" style="background-color: #013A63;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }} English
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/41.HASIL-PUBLIC-EXPOSE-TAHUNAN-2024.jpg" alt="HASIL PUBLIC EXPOSE TAHUNAN 2024" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">{{ "IR-SECTION-PUBLIC-EXPOSE-1" | translate }}</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/pengumuman-public-expose-2024.pdf">
+                                        <button class="text-white lg:text-sm text-xs font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }} Bahasa
+                                        </button>
+                                    </a>
+
+                                    <a href="https://dmmrnd.id/img-dmm/docs/the-public-expose-announcement-2024.pdf" class="pl-3">
+                                        <button class="text-white lg:text-sm text-xs font-bold py-2 px-4 rounded" style="background-color: #013A63;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }} English
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/38.pengumuman-public-expose-annoucement-2024.jpg" alt="Pengumuman Public Expose Annoucement 2024" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Laporan Hasil Public Expose Insidental PT Digital Mediatama Maxima Tbk - 18 April 2024</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/Laporan-Hasil-Pubex-Insidental-Bahasa.pdf">
+                                        <button class="text-white lg:text-sm text-xs font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }} Bahasa
+                                        </button>
+                                    </a>
+
+                                    <a href="https://dmmrnd.id/img-dmm/docs/The-Incidental-Pubex-Result-Reporting-English.pdf" class="pl-3">
+                                        <button class="text-white lg:text-sm text-xs font-bold py-2 px-4 rounded" style="background-color: #013A63;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }} English
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/29.Laporan-Hasil-Public-Expose-Insidental.jpg" alt="Laporan Hasil Public Expose Insidental" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Pengumuman Public Expose Insidental PT Digital Mediatama Maxima Tbk</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/Draft-Pemberitahuan-Pubex-Insidental-di-Website.pdf">
+                                        <button class="text-white lg:text-sm text-xs font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }} Bahasa
+                                        </button>
+                                    </a>
+
+                                    <a href="https://dmmrnd.id/img-dmm/docs/Draft-Pemberitahuan-Pubex-di-Website-English.pdf" class="pl-3">
+                                        <button class="text-white lg:text-sm text-xs font-bold py-2 px-4 rounded" style="background-color: #013A63;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }} English
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/40.public-expose-insidental.jpg" alt="Pengumuman Public Expose Insidental" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Content for Tab 3 (hidden by default) -->
+                <div class="tab-content text-center hidden" id="tab-3">
+                    <div class="text-center">
+                        <p class="text-2xl" style="font-family: MontserratBLD;">Annual Report</p>
+                    </div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Annual Report & Sustainability Report 2023</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/annual-report/Final-AR-SR-DMMX-2023-(Hires).pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/31.Annual-Report-&-Sustainability-Report-2023.jpg" alt="Annual Report & Sustainability Report 2023" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Annual Report 2022</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/annual-report/annual-report-2022.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/10.Annual-Report-2022.jpg" alt="Annual Report 2022" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Annual Report 2021</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/annual-report/annual-report-2021.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/11.Annual-Report-2021.jpg" alt="Annual Report 2021" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Annual Report 2020</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/annual-report/annual-report-2020.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/12.Annual-Report-2020.jpg" alt="Annual Report 2020" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Annual Report 2019</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/annual-report/annual-report-2019.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/13.Annual-Report-2019.jpg" alt="Annual Report 2019" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="margin:20px"></div>
+                </div>
+                <!-- Content for Tab 4 (hidden by default) -->
+                <div class="tab-content text-center hidden" id="tab-4">
+                    <div class="text-center">
+                        <p class="text-2xl" style="font-family: MontserratBLD;">Financial Statements</p>
+                    </div>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Laporan Keuangan Q1 2024</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/financial-report/Final-Repor-DMMX-Q1-2024.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/30.Final-Repor-DMMX-Q1-2024.jpg" alt="Laporan Keuangan Q1 2024" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Laporan Keuangan Tahunan 2023</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/financial-report/laporan-keuangan-tahunan-2023.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/14.Laporan-Keuangan-Tahunan-2023.jpg" alt="Laporan Keuangan Tahunan 2023" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Laporan Keuangan 2023 - Q3</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/financial-report/laporan-keuangan-2023-q3.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/15.Laporan-Keuangan-2023-Q3.jpg" alt="Laporan Keuangan 2023 Q3" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Laporan Keuangan 2023 Q2</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/financial-report/financial-report-2023-q2.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/16.Laporan-Keuangan-2023-Q2.jpg" alt="Laporan Keuangan 2023 Q2" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Laporan Keuangan 2023 Q1</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/financial-report/Laporan-Keuangan-2023-Q1.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/28.Laporan-Keuangan-2023-Q1.jpg" alt="Laporan Keuangan 2023 Q1" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Laporan Keuangan 2022</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/financial-report/laporan-keuangan-2022.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>    
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/17.Laporan-Keuangan-2022.jpg" alt="Laporan Keuangan 2022" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Financial Report 2020</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/financial-report/financial-report-2020.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/18.Laporan-Keuangan-2020.jpg" alt="Laporan Keuangan 2020" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+                </div>
+                <!-- Content for Tab 5 (hidden by default) -->
+                <div class="tab-content text-center hidden" id="tab-5">
+                    <div class="text-center">
+                        <p class="text-2xl" style="font-family: MontserratBLD;">Investor Bulletin</p>
+                    </div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">DMMX 1Q24 Financial Results</h3>
+                                    <!-- <a href="../../../../assets/docs/invenstor-bulletin/DMMX-FY23-Financial-Results-Final.pdf">{{ "IR-BUTTON-DETAIL" | translate }}</a> -->
+                                    <a href="https://dmmrnd.id/img-dmm/docs/invenstor-bulletin/Final-DMMX-1Q24-Investor-Letter-Final.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/32.DMMX-1Q24-Financial-Results.jpg" alt="DMMX 1Q24 Financial Results" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">DMMX FY23 Financial Results</h3>
+                                    <!-- <a href="../../../../assets/docs/invenstor-bulletin/DMMX-FY23-Financial-Results-Final.pdf">{{ "IR-BUTTON-DETAIL" | translate }}</a> -->
+                                    <a href="https://dmmrnd.id/img-dmm/docs/invenstor-bulletin/DMMX-FY23-Financial-Results-Final.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/19.DMMX-FY23-Financial-Results.jpg" alt="DMMX FY23 Financial Results" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">9M23 Financial Results</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/invenstor-bulletin/9m23-financial-results.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/20.9M23-Financial-Results.jpg" alt="9M23 Financial Results" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">1H23 Financial Results</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/invenstor-bulletin/1h23-financial-results.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/21.1H23-Financial-Results.jpg" alt="1H23 Financial Results" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">1Q23 Financial Results</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/invenstor-bulletin/1q23-financial-results.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/22.1Q23-Financial-Results.jpg" alt="1Q23 Financial Results" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">1Q21 Financial Results</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/invenstor-bulletin/1q21-financial-results.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/23.1Q21-Financial-Results.jpg" alt="1Q21 Financial Results" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">1H20 Financial Results</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/invenstor-bulletin/1h20-financial-results.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/24.1H20-Financial-Results.jpg" alt="1H20 Financial Results" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">FY21 Financial Results</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/invenstor-bulletin/fy21-financial-results.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/25.FY21-Financial-Results.jpg" alt="FY21 Financial Results" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin:20px"></div>
+                </div>
+                <!-- Content for Tab 6 (hidden by default) -->
+                <div class="tab-content text-center hidden" id="tab-6">
+                    <div class="text-center">
+                        <p class="text-2xl" style="font-family: MontserratBLD;">Prospectus</p>
+                    </div>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td align="center" valign="middle" width="100%">
+                                    <p></p>
+                                    <h3 style="font-family: MontserratMDM;">Prospectus</h3>
+                                    <a href="https://dmmrnd.id/img-dmm/docs/Prospectus/prospektus.pdf">
+                                        <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                            {{ "IR-BUTTON-DETAIL" | translate }}
+                                        </button>
+                                    </a>
+                                    <p></p>
+                                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/26.Prospectus.jpg" alt="Prospectus" style="border: 1px solid black;">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="margin:20px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ---------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------- -->
+
+
+<!-- <mat-tab-group>
+
+    <mat-tab label="General Meeting of Shareholders">
+        <div class="tab-content text-center" id="tab-1">
+            <div class="text-center">
+                <p class="text-2xl" style="font-family: MontserratBLD;">General Meeting of Shareholders</p>
+            </div>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+                        <td align="center" valign="middle" width="100%">
+                            <p></p>
+                            <h3 class="text-lg" style="font-family: MontserratMDM;">PEMANGGILAN RUPS 2023</h3>
+                            <a href="https://dmmrnd.id/img-dmm/docs/pemanggilan-rups-2023.pdf">
+                                <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                    {{ "IR-BUTTON-DETAIL" | translate }}
+                                </button>
+                            </a>
+                            <p></p>
+                             <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/1.Pemanggilan-RUPS-2023.jpg" alt="Pemanggilan RUPS 2023" style="border: 1px solid black;">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="margin:20px"></div>
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+                        <td align="center" valign="middle" width="100%">
+                            <p></p>
+                            <h3 style="font-family: MontserratMDM;">PENGUMUMAN RUPS 2023</h3>
+                            <a href="https://dmmrnd.id/img-dmm/docs/pengumuman-rups-2023.pdf">
+                                <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                    {{ "IR-BUTTON-DETAIL" | translate }}
+                                </button>
+                            </a>
+                            <p></p>
+                            <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/2.Pengumuman-RUPS-2023.jpg" alt="Pengumuman RUPS 2023" style="border: 1px solid black;">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div style="margin:20px"></div>
+
+        </div>
+    </mat-tab>
+
+    <mat-tab label="Pubex Expose">
+        <div class="tab-content text-center" id="tab-2">
+            <div class="text-center">
+                <p class="text-2xl" style="font-family: MontserratBLD;">Pubex Expose</p>
+            </div>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+                        <td align="center" valign="middle" width="100%">
+                            <p></p>
+                            <h3 style="font-family: MontserratMDM;">Laporan Hasil Public Expose Insidental PT Digital Mediatama Maxima Tbk - 18 April 2024</h3>
+                            <a href="https://dmmrnd.id/img-dmm/docs/Laporan-Hasil-Pubex-Insidental-Bahasa.pdf">
+                                <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                    {{ "IR-BUTTON-DETAIL" | translate }} Bahasa
+                                </button>
+                            </a>
+
+                            <a href="https://dmmrnd.id/img-dmm/docs/The-Incidental-Pubex-Result-Reporting-English.pdf" class="pl-3">
+                                <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                    {{ "IR-BUTTON-DETAIL" | translate }} English
+                                </button>
+                            </a>
+                            <p></p>
+                            <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/29.Laporan-Hasil-Public-Expose-Insidental.jpg" alt="Laporan Hasil Public Expose Insidental" style="border: 1px solid black;">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div style="margin:20px"></div>
+
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+                <tr>
+                    <td align="center" valign="middle" width="100%">
+                        <p></p>
+                        <h3 style="font-family: MontserratMDM;">Pengumuman Public Expose Insidental PT Digital Mediatama Maxima Tbk</h3>
+                        <a href="https://dmmrnd.id/img-dmm/docs/Draft-Pemberitahuan-Pubex-Insidental-di-Website.pdf">
+                            <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                {{ "IR-BUTTON-DETAIL" | translate }} Bahasa
+                            </button>
+                        </a>
+
+                        <a href="https://dmmrnd.id/img-dmm/docs/Draft-Pemberitahuan-Pubex-di-Website-English.pdf" class="pl-3">
+                            <button class="text-white font-bold py-2 px-4 rounded" style="background-color: #013A63;">
+                                {{ "IR-BUTTON-DETAIL" | translate }} English
+                            </button>
+                        </a>
+                        <p></p>
+                        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-5-image.jpg" alt="Pengumuman Public Expose Insidental" style="border: 1px solid black;">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </mat-tab>
+
+    <mat-tab label="Prospectus">
+        <div class="tab-content text-center" id="tab-6">
+            <div class="text-center">
+                <p class="text-2xl" style="font-family: MontserratBLD;">Prospectus</p>
+            </div>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+                        <td align="center" valign="middle" width="100%">
+                            <p></p>
+                            <h3 style="font-family: MontserratMDM;">Prospectus</h3>
+                            <a href="https://dmmrnd.id/img-dmm/docs/Prospectus/prospektus.pdf">
+                                <button class="text-white lg:text-sm font-bold py-2 px-4 rounded" style="background-color: #013A63; font-family: MontserratMDM;">
+                                    {{ "IR-BUTTON-DETAIL" | translate }}
+                                </button>
+                            </a>
+                            <p></p>
+                            <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/26.Prospectus.jpg" alt="Prospectus" style="border: 1px solid black;">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </mat-tab>
+
+
+    
+    <mat-tab label="Content 3">
+        <ng-template mat-tab-label>
+            <span class="my-custom-class">Content 3</span>
+            111111
+        </ng-template>
+        TEST
+    </mat-tab>
+
+    <mat-tab label="Third"> Content 4 </mat-tab>
+    <mat-tab label="Third"> Content 5 </mat-tab>
+    
+</mat-tab-group> -->
+
+<!-- FOOTER -->
+<app-footer></app-footer>

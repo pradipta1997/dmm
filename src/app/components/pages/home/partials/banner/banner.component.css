@@ -1,0 +1,109 @@
+/* HERO IMAGE */
+/* .hero-image {
+    background-image: url("https://dmmrnd.id/img-dmm/WF-Hero-2.avif");
+    height: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  } */
+  
+  /* .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 23%;
+    left: 7%;
+  } */
+
+
+.gradient-text {
+  background-image: linear-gradient(100deg, #013A63 0%, #013A63 40%, #0668ae 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+
+@media (min-width: 768px) { /* <--for lg screen */
+  .media-query-banner {
+    width: 750px;
+  }
+}
+@media (max-width: 1024px) { /* <--for md screen */
+  .media-query-banner {
+    width: 500px;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* FONT IMPORT */
+@font-face {
+  font-family: "MontserratBLD";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: "MontserratSMBLD";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+  font-family: "MontserratBI";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: "MontserratBL";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Black.otf');
+}
+
+@font-face {
+  font-family: "MontserratMDM";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Medium.otf');
+}
+
+@font-face {
+  font-family: "MontserratREG";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: "MontserratTH";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Thin.otf');
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* MEDIA QUERY RESPONSIVE (MOBILE SCREEN) */
+@media (min-width: 300px) and (max-width: 700px) { 
+
+  .container {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+
+  /* Image Container on Banner */
+  .img-banner-container {
+    width: 100%;
+    height: 219;
+    /* border: 2px solid blue; */
+  }
+
+  /* Text on Banner*/
+  .text-banner {
+    width: 100%;
+    /* border: 2px solid blue; */
+  }
+  .list-disc-for-mobile {
+    padding-left: 10px;
+  }
+
+  .desktop-screen-hidden-if-mobile {
+    display: none;
+    border: 2px solid red;
+  }
+  
+}

@@ -1,0 +1,90 @@
+/* FOOTER */
+.container-footer {
+    background-color: black;
+    width: 100%;
+    height: 136px;
+  }
+  
+  .container-footer img {
+    translate: 0px 34px;
+  }
+  
+  .icon-footer {
+    translate: 0px 40px;
+  }
+  
+  .text-footer {
+    translate: 0px 57px;
+    font-size: 13px;
+  }
+
+
+  /* ------------------------------------------- */
+
+  /* FONT IMPORT */
+@font-face {
+  font-family: "MontserratBLD";
+  src: url('../../../../assets/fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: "MontserratSMBLD";
+  src: url('../../../../assets/fonts/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+  font-family: "MontserratBI";
+  src: url('../../../../assets/fonts/Montserrat-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: "MontserratBL";
+  src: url('../../../../assets/fonts/Montserrat-Black.otf');
+}
+
+@font-face {
+  font-family: "MontserratREG";
+  src: url('../../../../assets/fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: "MontserratMDM";
+  src: url('../../../../assets/fonts/Montserrat-Medium.otf');
+}
+
+@font-face {
+  font-family: "MontserratLGT";
+  src: url('../../../../assets/fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+  font-family: "MontserratXLGT";
+  src: url('../../../../assets/fonts/Montserrat-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: "MontserratTH";
+  src: url('../../../../assets/fonts/Montserrat-Thin.otf');
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+/* MEDIA QUERY RESPONSIVE (MOBILE SCREEN) */
+@media (min-width: 300px) and (max-width: 700px) { 
+
+  .desktop-screen-hidden-if-mobile {
+    display: none;
+  }
+
+  /* .mobile-border {
+    border: 2px solid red;
+  } */
+
+  .container {
+    width: 100%;
+    /* height: 330px; */
+    background-color: black;
+  }
+
+}

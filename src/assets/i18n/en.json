@@ -1,0 +1,214 @@
+{
+    "NAVBAR1": "Solution",
+    "NAVBAR2": "Investor Relation",
+    "NAVBAR3": "News",
+    "NAVBAR4": "About Us",
+    "NAVBAR5": "Contact Us",
+    "NAVBAR-MM1": "Advertisement Solution",
+    "NAVBAR-MM2": "IP Character Licensing",
+    "NAVBAR-MM3": "Creators Hub",
+    "NAVBAR-MMHEADLINE": "Consumer Business",
+    "NAVBAR-MM4": "Instant Coffee",
+    "NAVBAR-MM5": "Print Photos",
+    "NAVBAR-MM6": "Electric Motor",
+    "NAVBAR-MM7": "Esport Academy",
+
+
+    "BANNER-HEADLINE": "A leading End-to-end Retailer & Consumer Platform Service Company.",
+    "BANNER-SUBHEADLINE": "All-in-one solutions from cloud content platform, AI-based smart retail platform, commerce platform to consumer engagement.",
+    "BANNER-DESC1-a": "Integrated",
+    "BANNER-DESC1-b": "Cloud-Based",
+    "BANNER-DESC1-c": "technology with Digital Signage & LED Videotron.",
+    "BANNER-DESC2-a": "Accurate customer identification with",
+    "BANNER-DESC2-b": "AI Profiling & Biometric Technology.",
+    "BANNER-DESC3-a": "Enhancing customer engagement through",
+    "BANNER-DESC3-b": "AR Gamification Technology.",
+    "BANNER-DESC4-a": "Providing a new customer experience using",
+    "BANNER-DESC4-b": "Electronic Shelf Label",
+    "BANNER-DESC4-c": "(ESL) and Sound Dome",
+    "BANNER-DESC4-d": "(Directional Speaker).",
+    "BANNER-DESC5": "Small Medium Enterprise (SME) Commerce Platform to digitize the Small Medium Enterprise (UMKM) industry.",
+
+
+    "SR-HEADLINE": "Smart Retail for Business",
+    "SR-SUBHEADLINE": "PT Digital Mediatama Maxima, Tbk (DMMX) provides a smart retail solution with the latest intelligent technology features, assisting business players compete in the digital era.",
+    "SR-BOX1-a": "Provides convenience in managing and",
+    "SR-BOX1-b": "distributing content using Digital Signage.",
+    "SR-BOX2": "Promotional media using LED (Light Emitting Diode) technology that displays informative and promotional content attractively and effectively.",
+    "SR-BOX3-a": "Electronic Shelf Label",
+    "SR-BOX3-b": "(ESLs) that can display and change prices as well as product information digitally",
+    "SR-BOX3-c": "cloud-based.",
+    "SR-BOX4-a": "Facilitating users to analyze, process data, and target",
+    "SR-BOX4-b": "advertisements to customers.",
+    "SR-BOX-5": "Increasing customer engagement, sales, and brand awareness through gamification using AR technology",
+    "SR-BOX-6": "Providing a new experience related to promotional formats through real audio.",
+    "SR-BOX-7": "Providing affordable and easy digitalization platform for the sustainability of SME industries.",
+    "SR-BUTTON": "Detailed Information",
+
+
+    "OS-HEADLINE": "Our Strength",
+    "OS-SUBHEADLINE": "Statistics",
+    "OS-BOX1-a": "End-to-end Service",
+    "OS-BOX1-b": "Providing fully functional digital solutions for efficiency and performance optimization.",
+    "OS-BOX2-a": "National Service Coverage",
+    "OS-BOX2-b": "We have 38 service points spread across Indonesia, connected from Aceh to Papua.",
+    "OS-BOX3-a": "Fast Response",
+    "OS-BOX3-b": "We respond to content changes quickly and in real-time using a Content Management System (CMS).",
+    "OS-STATISTICS-1": "Coverage Area",
+    "OS-STATISTICS-2": "Service Point Coverage",
+    "OS-STATISTICS-3": "Locations",
+    "OS-STATISTICS-DESC": "PT Digital Mediatama Maxima, Tbk (DMMX) assists retail entrepreneurs in their growth by focusing on End-to-End Services and Content Management System (CMS) services that reach across Indonesia.",
+    "OS-BUTTON": "Detailed Information",
+
+
+    "IS-HEADLINE": "Industrial Sector",
+    "IS-SUBHEADLINE": "We are experienced in providing intelligent features and the latest technology for various industries that provides business owners with enhanced digital content and drive success in competitive business markets.",
+    "IS-BUTTON1": "Mini-Market",
+    "IS-BUTTON2": "Healthcare",
+    "IS-BUTTON3": "F&B",
+    "IS-BUTTON4": "Fashion",
+    "IS-BUTTON5": "Transportation",
+    "IS-DESC": "Technology Partners",
+
+
+    "EPS-HEADLINE": "Engagement Platform Solution",
+    "EPS-SUBHEADLINE": "PT Digital Mediatama Maxima, Tbk (DMMX) provides Smart Retail Solution Services to consumers, designed for increasing interactions and connections with your audience. Dynamic Solution Services, created to optimize your company in building good relationships and encouraging interaction with the audience.",
+    "EPS-BOX1": "Boosting brand awareness with Digital Out-of-Home (DOOH) seamlessly integrated with our Content Management System (CMS).",
+    "EPS-BOX2": "PT Digital Mediatama Maxima Tbk. and PT Bumilangit Entertainment's joint venture to manage Bumilangit IP distribution and monetization across various digital platform channels, including games, merchandising, and other digital applications.",
+    "EPS-BOX3": "Close The Door is a collective of Indonesian creators founded by Deddy Corbuzier, consisting of over 25 creators with a combined total of 40 million subscribers and over 100 million views.",
+    "ESP-BUTTONS": "More Details",
+
+
+    "CB-HEADLINE": "Consumer Business",
+    "CB-SUBHEADLINE": "Apart from providing products and services for business people, Digital Mediatama Maxima also provides various digital products and services that consumers can use.",
+    "CB-CARD1": "Coffee and non-coffee beverage vending machine with a ‘Grab-n-Go’ concept that also serves transactions for purchasing credit and internet packages.",
+    "CB-CARD2": "Online photo printing platform offering premium quality at an affordable price.",
+    "CB-CARD3": "Electric motor vehicles that are environmentally friendly, equipped with robust battery systems, and integrated with various IoT technology features.",
+    "CB-CARD4": "Recognized by the National Sports Committee (KONI), Esports Academy ID (EAID) is a platform for the young generations who want to learn, train, and compete professionally in the field of Esports.",
+
+
+    "IR-HEADLINE": "Investor Relation",
+    "IR-SUBHEADLINE": "A dedicated page for our valuable investors, which serves as the company information channel to find reports and bulletins.",
+    "IR-BUTTON": "Go To Page",
+    "IR-BUTTON-DETAIL": "View File",
+    "IR-SECTION-GENERAL-MEETING-1": "INVITATION of GMS 2023",
+    "IR-SECTION-GENERAL-MEETING-2": "ANNOUNCEMENT of GMS 2023",
+    "IR-SECTION-GENERAL-MEETING-3": "MINUTES of GMS 2022",
+    "IR-SECTION-GENERAL-MEETING-4": "EXTRAORDINARY of GMS 2023",
+    "IR-SECTION-GENERAL-MEETING-5": "MINUTES of GMS 2023",
+    "IR-SECTION-GENERAL-MEETING-6": "INVITATION of GMS 2022",
+    "IR-SECTION-GENERAL-MEETING-7": "ANNOUNCEMENT of GMS 2022",
+    "IR-SECTION-GENERAL-MEETING-8": "ANNUAL of GMS 2022",
+    "IR-SECTION-GENERAL-MEETING-9": "ANNOUNCEMENT 2021",
+    "IR-SECTION-GENERAL-MEETING-10": "HEALTH PROTOCOLS 2021",
+    "IR-SECTION-GENERAL-MEETING-11": "ANNOUNCEMENT of GMS 2024",
+    "IR-SECTION-GENERAL-MEETING-12": "INVITATION of GMS 2024",
+    "IR-SECTION-GENERAL-MEETING-13": "TATA TERTIB RUPS 2024",
+    "IR-SECTION-GENERAL-MEETING-14": "SURAT KUASA INDIVIDU - RUPS DMMX 2024",
+    "IR-SECTION-GENERAL-MEETING-15": "SURAT KUASA INSTITUSI - RUPS DMMX 2024",
+    "IR-SECTION-GENERAL-MEETING-16": "SUMMARY of MINUTES of AGMS and EGMS 2024",
+
+    "IR-SECTION-PUBLIC-EXPOSE-1": "The 2024 Public Expose Announcement",
+    "IR-SECTION-PUBLIC-EXPOSE-2": "The Annual Public Expose Result Reporting of PT Digital Mediatama Maxima Tbk - June 20, 2024",
+    
+
+
+    "NEWS-HEADLINE": "News",
+    "NEWS-BOX-1": "Incidental Public Expose PT Digital Mediatama Maxima Tbk",
+    "NEWS-BOX-2": "The Signing of MoU Collaboration Between DMMX and PT Alternative Media Group (AMG) Offering Digital Advertising Solutions and a More Dynamic Experience for Consumers",
+    "NEWS-BOX-3": "DMMX Group Makes Groundbreaking Debut at NRF 2024 Retail’s Big Show in New York",
+    "NEWS-BOX-4": "Implementing AI-Based Smart Retail, DMMX Group Partners with Hotels, Supermarkets, and Airports in the Middle East, South America, and Southeast Asia",
+    "NEWS-BOX-5": "ZKDigimax Pte. Ltd, a Joint Venture Between ZKTeco and DMMX, Begins Production of Artificial Intelligence-Based Smart Retail Solutions Serving 15 Countries",
+    "NEWS-BOX-6": "PT Digital Mediatama Maxima Tbk (DMMX) Raih Penghargaan dari Samsung “Best Partner for Retail Implementation Smart Digital Signage 2023” ",
+    "NEWS-BUTTON": "View More",
+
+
+    "CONTACT-US-HEADLINE": "Contact Us",
+    "CONTACT-US-EMAIL": "Email Us",
+    "CONTACT-US-CALL-NEW": "Call Us",
+
+    "FOOTER1": "Privacy Policy",
+    "FOOTER2": "Terms and Condition",
+    "FOOTER3": "Cookies Policy",
+
+
+
+
+
+    "SRD-CLOUD-BASED-DIGITAL-SIGNAGE-HEADLINE": "Commercial Signage & Content Management System (CMS) Features is a cloud-based digital content distribution system that allows you to manage and update digital content using only a singular dashboard. This system works by storing digital content on a cloud server and then distributing it to digital signage devices connected to the internet.",
+    "SRD-CLOUD-BASED-DIGITAL-SIGNAGE-DESC1-a": "Effortless Management",
+    "SRD-CLOUD-BASED-DIGITAL-SIGNAGE-DESC1-b": "Users can manage and update digital content from anywhere, as long as there is an internet connection.",
+    "SRD-CLOUD-BASED-DIGITAL-SIGNAGE-DESC2-a": "Unrivaled Flexibility",
+    "SRD-CLOUD-BASED-DIGITAL-SIGNAGE-DESC2-b": "Cloud-based digital signage can be used to manage digital signage devices spread across various locations.",
+    "SRD-CLOUD-BASED-DIGITAL-SIGNAGE-DESC3-a": "Practical Affordability",
+    "SRD-CLOUD-BASED-DIGITAL-SIGNAGE-DESC3-b": "Cloud-based digital signages do not require a large investment in hardware and software.",
+
+    "SRD-CLOUD-BASED-VIDEOTRON-HEADLINE": "Cloud-based LED Videotron",
+    "SRD-CLOUD-BASED-VIDEOTRON-DESC": "LED Videotron facilitates the delivery of messages in the form of moving images, text, and graphics with high resolution so that the message can appear dynamic, vivid, and able to attract attention among the audience. LED Videotron users can be utilized across various fields for various purposes.",
+    "SRD-CLOUD-BASED-VIDEOTRON-BOX1-a": "Advertising Placement ",
+    "SRD-CLOUD-BASED-VIDEOTRON-BOX1-b": "LED Videotron can display images and videos clearly and vividly to display advertising, information or other visual content in public spaces such as highways, stadiums or shopping centers. It has the advantages of being resistant to weather and outdoor environments, as well as low energy consumption, making it suitable for long-term use.",
+    "SRD-CLOUD-BASED-VIDEOTRON-BOX2-a": "Public Communication",
+    "SRD-CLOUD-BASED-VIDEOTRON-BOX2-b": "LED Videotron can be utilized as a means of public communication for both private and government institutions to convey general information to the public such as emergency alerts or advisories.",
+    "SRD-CLOUD-BASED-VIDEOTRON-BOX3-a": "Entertainment",
+    "SRD-CLOUD-BASED-VIDEOTRON-BOX3-b": "LED Videotron is a versatile tool that can be used for various types of entertainment. With its ability to display captivating and clear images, LED Videotron can provide a more interactive and enjoyable experience for viewers.",
+    "SRD-CLOUD-BASED-VIDEOTRON-BOX4-a": "Guidance and Navigation",
+    "SRD-CLOUD-BASED-VIDEOTRON-BOX4-b": "LED Videotron can be used for guidance and navigation in Public Transportation Areas.",
+    "SRD-CLOUD-BASED-VIDEOTRON-BOX5-a": "Interaction & Customer Engagement",
+    "SRD-CLOUD-BASED-VIDEOTRON-BOX5-b": "With dynamic and vivid visual displays, LED Videotron can be utilized as a tool to attract attention and engage directly with audiences using interactive content.",
+
+    "SRD-AI-PROFILING-HEADLINE": "",
+    "SRD-AI-PROFILING-SUBHEADLINE": "AI profiling is the use of artificial intelligence (AI) to analyze and process customer data to understand their needs and behavior. AI profiling can be used for various purposes, such as:",
+    "SRD-AI-PROFILING-BOX1-a": "Customer Segmentation",
+    "SRD-AI-PROFILING-BOX1-b": "AI Profiling can be used to segment customers based on their needs and behavior",
+    "SRD-AI-PROFILING-BOX2-a": "Targeted Advertisements",
+    "SRD-AI-PROFILING-BOX2-b": "AI Profiling can be used to target advertisements to the right customers",
+    "SRD-AI-PROFILING-BOX3-a": "Superior Service",
+    "SRD-AI-PROFILING-BOX3-b": "AI profiling can be used to improve customer experience by providing relevant offers and recommendations",
+
+    "SRD-ESL-SUBHEADING": "Electronic Shelf Label (ESL), is an electronic label whose contents can be changed remotely. ESLs are usually used in retail stores to display product prices, product information and promotions. A variant of the ESL is a Cloud-Based ESL, which has a  system that works by storing label content on a cloud server and then distributing it to ESL devices connected to the internet. Cloud-Based ESLs has a number of advantages over traditional ESL systems, including:",
+    "SRD-ESL-BOX1-a": "Management Simplicity",
+    "SRD-ESL-BOX1-b": "Users can manage and update content from anywhere as long as there is an internet connection",
+    "SRD-ESL-BOX2-a": "Exceptional Flexibility",
+    "SRD-ESL-BOX2-b": "Cloud based ESL can be used to manage ESL devices located in various locations",
+    "SRD-ESL-BOX3-a": "Financial Convenience",
+    "SRD-ESL-BOX3-b": "Cloud base ESL does not require large investments in software and hardware",
+
+    "SRD-SOUND-DOME-SUBHEADING": "The Sound Dome is a directional speaker designed to create an immersive and realistic listening experience. By using digital processing and targeted speaker settings, the sound dome is able to create 3D sound effects that puts listeners in an expanded audio environment. This is commonly used in the retail industry with promotional content in the form of audio and placing it in strategic areas such as cashiers, chillers, and corners rack.",
+
+    "SRD-AR-GAMIFICATION-SUBHEADING": "AR gamification is the use of augmented reality (AR) to create games and interactive experiences. AR gamification can be used for various purposes, such as:",
+    "SRD-AR-GAMIFICATION-POINT1-a": "Augmented Fulfillment",
+    "SRD-AR-GAMIFICATION-POINT1-b": "Create and provide a more fun and interactive experience for your customers to enjoy.",
+    "SRD-AR-GAMIFICATION-POINT2-a": "Enhancing Sales",
+    "SRD-AR-GAMIFICATION-POINT2-b": "A more interactive customer experience can potentially lead to increase sales by getting them more engaged with your brand",
+    "SRD-AR-GAMIFICATION-POINT3-a": "Elevating Awareness",
+    "SRD-AR-GAMIFICATION-POINT3-b": "A unique and memorable experience is one of the best customer retention methods for any brand, thereby increasing your brand awareness.",
+
+    "SRD-SME-SUBHEADLINE": "Small Medium Enterprises (SME) Commerce Platform is a platform that facilitates UMKMs to digitalize their transactions to support the growth of UMKM businesses. The platform:",
+    "SRD-SME-BOX1": "Gives SMEs access to potential markets without geographical boundaries, giving them an opportunity to easily expand and manage their businesses.",
+    "SRD-SME-BOX2": "Provides SMEs with an opportunity to make the right decisions by giving them new market information through coaching and discussions directly with the business owners, allowing them to better understand market behavior and evaluate their products.",
+    "SRD-SME-BOX3": "Optimizes SMEs by adding digital products and services such as Point Payment Online Banking (PPOB) offering an attractive business opportunity for them and potentially increasing revenue.",
+    "SRD-SME-BOX4": "Ultimately helps SMEs create and have a character of unique identity (Branding), starting from personalization of identity, exclusive products, character audience, etc. creating a potential loyal customer base.",
+    
+    "AU-BANNER-HEADLINE": "About Us",
+    "AU-BANNER-SUBHEADLINE": "PT Digital Mediatama Maxima Tbk (DMMX) is a Retailer & Consumer platform service company that provides end-to-end services from cloud content platform, AI- based smart retail platform, commerce platform to consumer engagement.",
+    "AU-BANNER-BOX1-a": "Vision",
+    "AU-BANNER-BOX1-b": "To act as a leading platform service company for retailer and commerce that provides comprehensive yet efficient solutions to digitally empower business in Indonnesia.",
+    "AU-BANNER-BOX2-a": "Mision",
+    "AU-BANNER-BOX2-b": "Facilitating business across Indonesia with an efficient and effective promotion & engagement strategy through end to end digital ecosystem from sourcing, commercial to engagement.",
+
+    "AU-STATISTICS-HEADLINE": "Statistics",
+    "AU-STATISTICS-POINT1": "Coverage Area",
+    "AU-STATISTICS-POINT2": "Service Point Coverage",
+    "AU-STATISTICS-POINT3": "Locations",
+
+    "AU-END-TO-END-HEADLINE": "End-to-end Service",
+    "AU-END-TO-END-DESC": "Providing fully functional digital solutions for efficiency and performance optimization.",
+    "AU-NATIONAL-SERVICE-COVERAGE-HEADLINE": "National Service Coverage",
+    "AU-NATIONAL-SERVICE-COVERAGE-DESC": "We have 38 service points spread across Indonesia, connected from Aceh to Papua.",
+    "AU-FAST-RESPONSE-HEADLINE": "Fast Response",
+    "AU-FAST-RESPONSE-DESC": "We respond to content changes quickly and in real-time using a Content Management System (CMS)."
+
+
+
+    
+}

@@ -1,0 +1,93 @@
+/* NEWS */
+.gradient-text {
+  background-image: linear-gradient(100deg, #013A63 0%, #013A63 5%, #0674c3 15%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #011c2f 0%, #042944 20%, #1b8bdb 80%);
+  transition: 1s;
+  background-size: 200% auto;
+  color: white;
+}
+.btn-grad:hover {
+background-position: right center;
+color: black;
+background-image: linear-gradient(to right, #FFD731, #FFD731);
+border-color: #FFD731;
+}
+
+.scroll-target-news-room {
+  scroll-margin-top: 20vh;
+}
+
+/* ---------------------------------------------------------------------- */ 
+
+/* FONT IMPORT */
+@font-face {
+  font-family: "MontserratBLD";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: "MontserratSMBLD";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+  font-family: "MontserratBI";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: "MontserratBL";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Black.otf');
+}
+
+@font-face {
+  font-family: "MontserratREG";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: "MontserratMDM";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Medium.otf');
+}
+
+@font-face {
+  font-family: "MontserratLGT";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+  font-family: "MontserratXLGT";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: "MontserratTH";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Thin.otf');
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+
+/* MEDIA QUERY RESPONSIVE (MOBILE SCREEN) */
+@media (min-width: 300px) and (max-width: 700px) { 
+
+  .desktop-screen-hidden-if-mobile {
+    display: none;
+  }
+
+  .mobile-border {
+    border: 4px solid red;
+  }
+
+  .scroll-target-news-room {
+    scroll-margin-top: 5vh;
+  }
+
+}

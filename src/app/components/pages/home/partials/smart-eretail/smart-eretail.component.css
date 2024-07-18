@@ -1,0 +1,288 @@
+.btn-grad {
+    background-image: linear-gradient(to right, #011c2f 0%, #042944 20%, #1b8bdb 80%);
+    transition: 1s;
+    background-size: 200% auto;
+    color: white;
+  }
+  
+.btn-grad:hover {
+  background-position: right center;
+  color: black;
+  background-image: linear-gradient(to right, #FFD731, #FFD731);
+  border-color: #FFD731;
+}
+
+.gradient-text {
+  background-image: linear-gradient(100deg, #013A63 0%, #013A63 40%, #0668ae 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+/* FONT IMPORT */
+@font-face {
+  font-family: "MontserratBLD";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: "MontserratSMBLD";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+  font-family: "MontserratBI";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: "MontserratBL";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Black.otf');
+}
+
+@font-face {
+  font-family: "MontserratREG";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: "MontserratMDM";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Medium.otf');
+}
+
+@font-face {
+  font-family: "MontserratLGT";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+  font-family: "MontserratXLGT";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: "MontserratTH";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Thin.otf');
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+
+
+.sm-cloud-based-digital-signage-default {
+  /* background-image: url('https://dmmrnd.id/img-dmm/sm-digital-signage-dfl.avif'); */
+  background-image: url('https://dmmrnd.id/img-dmm/sm-cloud-based-digital-signage.jpg');
+}
+.box1 {
+  opacity: 0;
+  transition: 1.2s;
+}
+.box1:hover {
+  opacity: 100;
+  background-image: url('https://dmmrnd.id/img-dmm/sm-digital-signage_hover.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+/* ------- */
+
+.sm-cloud-based-videotron-default {
+  background-image: url('https://dmmrnd.id/img-dmm/sm-videotron-dfl.avif');
+  /* background-image: url('../../../../../../assets/sm-cloud-based-videotron.png'); */
+}
+.box2 {
+  opacity: 0;
+  transition: 1.2s;
+}
+.box2:hover {
+  opacity: 100;
+  background-image: url('https://dmmrnd.id/img-dmm/sm-videotron_hover.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+/* ------- */
+
+.sm-esl-default {
+  background-image: url('https://dmmrnd.id/img-dmm/sm-esl-dfl.avif');
+}
+.box3 {
+  opacity: 0;
+  transition: 1.2s;
+}
+.box3:hover {
+  opacity: 100;
+  background-image: url('https://dmmrnd.id/img-dmm/sm-esl-hover.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  height: 208px;
+}
+
+/* ------- */
+
+.sm-ai-profiling-default {
+  background-image: url('https://dmmrnd.id/img-dmm/sm-ai-profiling-dfl.avif');
+}
+.box4 {
+  opacity: 0;
+  transition: 1.2s;
+}
+.box4:hover {
+  opacity: 100;
+  background-image: url('https://dmmrnd.id/img-dmm/sm-ai-profiling-hover.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+
+/* ------- */
+
+.sm-ar-gamification-default {
+  background-image: url('https://dmmrnd.id/img-dmm/sm-ar-gamification-dfl.avif');
+}
+.box5 {
+  opacity: 0;
+  transition: 1.2s;
+}
+.box5:hover {
+  opacity: 100;
+  background-image: url('https://dmmrnd.id/img-dmm/sm-ar-gamification-hover.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  height: 208px;
+}
+
+
+/* ------- */
+
+.sm-sound-dome-default {
+  background-image: url('https://dmmrnd.id/img-dmm/sm-sound-dome-dfl.jpg');
+}
+.box6 {
+  opacity: 0;
+  transition: 1.2s;
+}
+.box6:hover {
+  opacity: 100;
+  background-image: url('https://dmmrnd.id/img-dmm/sm-sound-dome-hover.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+
+/* ------- */  
+
+.sm-sme-default {
+  background-image: url('https://dmmrnd.id/img-dmm/sm-sme-dfl.avif');
+  /* background-image: url('../../../../../../assets/sm-sme-dfl.png'); */
+}
+.box7 {
+  opacity: 0;
+  transition: 1.2s;
+}
+.box7:hover {
+  opacity: 100;
+  background-image: url('https://dmmrnd.id/img-dmm/sm-sme-hover.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+/* MEDIA QUERY RESPONSIVE (MOBILE SCREEN) */
+@media (min-width: 300px) and (max-width: 700px) { 
+
+  .desktop-screen-hidden-if-mobile {
+    display: none;
+  }
+
+  .wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+  }
+  .wrapper::-webkit-scrollbar {
+    width: 10;
+  }
+
+  .img-box-1 {
+    background-image: url('https://dmmrnd.id/img-dmm/sm-digital-signage_hover.avif');
+    width: 100%;
+    margin-top: 10px;
+    /* height: 100%; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* border: 1px solid yellow; */
+  }
+  .img-box-2 {
+    background-image: url('https://dmmrnd.id/img-dmm/sm-videotron_hover.avif');
+    width: 100%;
+    margin-top: 10px;
+    /* height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* border: 1px solid yellow; */
+  }
+  .img-box-3 {
+    background-image: url('https://dmmrnd.id/img-dmm/sm-esl-hover.avif');
+    width: 100%;
+    margin-top: 10px;
+    /* height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* border: 1px solid yellow; */
+  }
+  .img-box-4 {
+    background-image: url('https://dmmrnd.id/img-dmm/sm-ai-profiling-hover.avif');
+    width: 100%;
+    margin-top: 10px;
+    /* height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* border: 1px solid yellow; */
+  }
+  .img-box-5 {
+    background-image: url('https://dmmrnd.id/img-dmm/sm-ar-gamification-hover.avif');
+    width: 100%;
+    margin-top: 10px;
+    /* height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* border: 1px solid yellow; */
+  }
+  .img-box-6 {
+    background-image: url('https://dmmrnd.id/img-dmm/sm-sound-dome-hover.avif');
+    width: 100%;
+    margin-top: 10px;
+    /* height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* border: 1px solid yellow; */
+  }
+  .img-box-7 {
+    background-image: url('https://dmmrnd.id/img-dmm/sm-esl-hover.avif');
+    width: 100%;
+    margin-top: 10px;
+    /* height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* border: 1px solid yellow; */
+  }
+}

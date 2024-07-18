@@ -1,0 +1,65 @@
+<div class="lg:flex lg:items-start     flex items-center background-banner-container        desktop-screen-hidden-if-mobile">
+  <img ngOptimizedImage loading="lazy" class="lg:h-auto lg:w-full     w-full h-full" src="https://dmmrnd.id/img-dmm/main-hero-background.avif" alt="Main Hero Background">
+
+  <div class="lg:absolute lg:grid lg:grid-cols-2 lg:gap-2 lg:w-full lg:px-24 lg:my-10 lg:-translate-y-8    grid-cols-1 px-7 justify-center items-center">
+    
+    <!-- panel kiri -->
+    <div class="lg:col-span-1 lg:mt-36 md:mt-40 lg:translate-y-2      mt-48 -translate-y-96 media-query-banner text-banner">
+      <div class="">
+        <p class="lg:text-4xl md:text-2xl gradient-text      text-lg" style="font-family: MontserratSMBLD; color: #013A63;">{{ "BANNER-HEADLINE" | translate }}</p>
+        <p class="lg:text-xl md:text-sm    text-sm" style="font-family: MontserratREG; color: #474747; margin-top: 3%;">
+          {{ "BANNER-SUBHEADLINE" | translate }}
+        </p>
+        <ul class="lg:text-base md:text-xs list-disc       text-sm list-disc-for-mobile" style="font-family: MontserratREG; color: #474747; margin-left: 2%; margin-top: 3%;">
+          <li>{{ "BANNER-DESC1-a" |translate }} <i>{{ "BANNER-DESC1-b" | translate }}</i> {{ "BANNER-DESC1-c" | translate }}</li>
+          <li>{{ "BANNER-DESC2-a" | translate }} <i>{{ "BANNER-DESC2-b" | translate }}</i></li>
+          <li>{{ "BANNER-DESC3-a" | translate }}  <i>{{ "BANNER-DESC3-b" | translate }}</i></li>
+          <li>{{ "BANNER-DESC4-a" | translate }}  <i>{{ "BANNER-DESC4-b" | translate }}</i>  {{ "BANNER-DESC4-c" | translate }}  <i>{{ "BANNER-DESC4-d" | translate }}</i></li>
+          <li>{{ "BANNER-DESC5" | translate }}</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- panel kanan -->
+    <div class="lg:col-span-1 lg:translate-y-2        img-banner-container">
+      <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/main-image-new.avif" alt="Main Image" class="lg:mt-36 md:mt-40 lg:w-4/5 md:w-9/12 lg:translate-x-44 md:translate-x-28        w-full h-full img-banner">
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- RESPONSIVE MOBILE SCREEN -->
+<div class="lg:hidden md:hidden">
+  <div class="grid-cols-1 px-3 justify-center items-center container">
+
+    <!-- panel above -->
+    <div class="img-banner-container"> 
+      <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/main-image-new.avif" alt="Main Image" class="w-full h-full pt-5">
+    </div>
+
+    <!-- panel below -->
+    <div class="media-query-banner text-banner">
+      <div class="">
+        <p class="gradient-text text-lg" style="font-family: MontserratSMBLD; color: #013A63;">{{ "BANNER-HEADLINE" | translate }}</p>
+        <p class="text-sm" style="font-family: MontserratREG; color: #474747; margin-top: 3%;">
+          {{ "BANNER-SUBHEADLINE" | translate }}
+        </p>
+        <ul class="flex flex-col gap-2 list-disc text-sm list-disc-for-mobile" style="font-family: MontserratREG; color: #474747; margin-left: 2%; margin-top: 3%;">
+          <li>{{ "BANNER-DESC1-a" | translate }} {{ "BANNER-DESC1-b" | translate }} {{ "BANNER-DESC1-c" | translate }}</li>
+          <li>{{ "BANNER-DESC2-a" | translate }} {{ "BANNER-DESC2-b" | translate }}</li>
+          <li>{{ "BANNER-DESC3-a" | translate }} {{ "BANNER-DESC3-a" | translate }}</li>
+          <li>{{ "BANNER-DESC4-a" | translate }} {{ "BANNER-DESC4-b" | translate }} {{ "BANNER-DESC4-c" | translate }} {{ "BANNER-DESC4-d" | translate }}</li>
+          <li>{{ "BANNER-DESC5" | translate }}</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>

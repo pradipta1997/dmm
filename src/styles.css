@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* IMPORT TAILWIND TO PROJECT */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'flowbite/dist/flowbite.min.css';
+
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+
+/* IMPORT FILE TO PROJECT */
+@font-face {
+  font-family: "Montserrat", "Montserrat-R";
+  src: url('../src/assets/fonts/Montserrat-BoldItalic.otf'),
+       url('../src/assets/fonts/Montserrat-Regular.otf');
+}
+
+

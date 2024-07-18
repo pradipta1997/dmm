@@ -1,0 +1,109 @@
+/* Background Image */
+.about-us {
+    background-image: url("https://dmmrnd.id/img-dmm/about-us-background.avif");
+    width: 100%;
+    height: 782px;
+}
+
+/* Statistik Utama Image */
+.statistik {
+    background-image: url("https://dmmrnd.id/img-dmm/statistik-utama-background.avif");
+    width: 100%;
+    height: 249px;
+}
+
+/* scrollbar */
+.wrapper {
+  max-height: 320px;
+  border: 1px solid red;
+  display: flex;
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.wrapper  .item {
+  min-width: 110px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: gray;
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* FONT IMPORT */
+@font-face {
+    font-family: "MontserratBLD";
+    src: url('../../../../assets/fonts/Montserrat-Bold.otf');
+  }
+  
+  @font-face {
+    font-family: "MontserratSMBLD";
+    src: url('../../../../assets/fonts/Montserrat-SemiBold.otf');
+  }
+  
+  @font-face {
+    font-family: "MontserratBI";
+    src: url('../../../../assets/fonts/Montserrat-BoldItalic.otf');
+  }
+  
+  @font-face {
+    font-family: "MontserratBL";
+    src: url('../../../../assets/fonts/Montserrat-Black.otf');
+  }
+  
+  @font-face {
+    font-family: "MontserratREG";
+    src: url('../../../../assets/fonts/Montserrat-Regular.otf');
+  }
+  
+  @font-face {
+    font-family: "MontserratMDM";
+    src: url('../../../../assets/fonts/Montserrat-Medium.otf');
+  }
+  
+  @font-face {
+    font-family: "MontserratLGT";
+    src: url('../../../../assets/fonts/Montserrat-Light.otf');
+  }
+  
+  @font-face {
+    font-family: "MontserratXLGT";
+    src: url('../../../../assets/fonts/Montserrat-ExtraLight.otf');
+  }
+  
+  @font-face {
+    font-family: "MontserratTH";
+    src: url('../../../../assets/fonts/Montserrat-Thin.otf');
+  }
+
+
+  /* ---------------------------------------------------------------------- */
+
+/* MEDIA QUERY RESPONSIVE (MOBILE SCREEN) */
+@media (min-width: 300px) and (max-width: 700px) { 
+
+  /* Background Image */
+  .about-us-bg-m {
+    background-image: url("https://dmmrnd.id/img-dmm/about-us-background.avif");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .statistik-bg-m {
+    background-image: url("https://dmmrnd.id/img-dmm/statistik-utama-background.avif");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* desktop screen hidden if mobile */
+  .desktop-screen-hidden-if-mobile {
+    display: none;
+  }
+
+}

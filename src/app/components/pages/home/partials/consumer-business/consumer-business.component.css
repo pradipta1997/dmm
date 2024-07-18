@@ -1,0 +1,89 @@
+/* CONSUMER BUSINESS */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.4);
+}
+
+.boxy {
+  background-color: rgb(0, 0, 0); 
+  z-index: 3;
+  opacity: 0.4;
+  transition: 0.5s;
+}
+.boxy:hover {
+  opacity: 0;
+}
+
+.gradient-text {
+  background-image: linear-gradient(100deg, #013A63 0%, #013A63 40%, #0674c3 80%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  
+/* ------------------------------------------------------------ */
+
+/* FONT IMPORT */
+@font-face {
+  font-family: "MontserratBLD";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: "MontserratSMBLD";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+  font-family: "MontserratBI";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: "MontserratBL";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Black.otf');
+}
+
+@font-face {
+  font-family: "MontserratMDM";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Medium.otf');
+}
+
+@font-face {
+  font-family: "MontserratREG";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: "MontserratLGT";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+  font-family: "MontserratXLGT";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: "MontserratTH";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Thin.otf');
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+
+/* MEDIA QUERY RESPONSIVE (MOBILE SCREEN) */
+@media (min-width: 300px) and (max-width: 700px) { 
+
+  .desktop-screen-hidden-if-mobile {
+    display: none;
+  }
+
+  /* .mobile-border {
+    border: 2px solid red;
+  } */
+
+}

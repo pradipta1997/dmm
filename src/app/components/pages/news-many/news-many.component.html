@@ -1,0 +1,176 @@
+<!-- NAVBAR MEGA MENU) -->
+<app-navbar></app-navbar>
+
+
+<section id="news-room" class="scroll-target-news-room">
+
+    <div class="border-only   desktop-screen-hidden-if-mobile mobile-border">
+
+        <div class="flex flex-row gap-14 px-24 pb-0 pt-44  lg:-translate-y-10 md:-translate-y-5">
+          
+            <a class="lg:w-6/12 rounded-xl border border-1" [routerLink]="['news-detail',{id:5}]" target="_blank">
+              <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-6-image.png" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+              
+              <div class="mt-2" style="padding: 4%;">
+                  <span class="font-thin" style="color: #ADADAD;">12/06/2024</span>
+                  <p class="lg:text-base" style="font-family: MontserratSMBLD;">
+                    {{ "NEWS-BOX-6" | translate }}
+                  </p>
+              </div>
+            </a>
+
+            <a class="lg:w-6/12 rounded-xl border border-1" [routerLink]="['news-detail',{id:4}]" target="_blank">
+                <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-4-image.webp" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+                
+                <div class="mt-2" style="padding: 4%;">
+                    <span class="font-thin" style="color: #ADADAD;">16/04/2024</span>
+                    <p class="lg:text-base" style="font-family: MontserratSMBLD;">
+                      {{ "NEWS-BOX-2" | translate }}
+                    </p>
+                </div>
+            </a>
+
+            <a class="lg:w-6/12 rounded-xl border border-1" [routerLink]="['news-detail',{id:1}]" target="_blank">
+              <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-1-image.avif" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+              
+              <div class="mt-2" style="padding: 4%;">
+                  <span class="font-thin" style="color: #ADADAD;">02/02/2024</span>
+                  <p class="lg:text-base" style="font-family: MontserratSMBLD;">
+                    {{ "NEWS-BOX-3" | translate }}
+                  </p>
+              </div>
+            </a>
+
+        </div>
+
+        <div class="flex flex-row gap-14 px-24 pb-0 pt-16  lg:-translate-y-10 md:-translate-y-5">
+          <a class="lg:w-6/12 rounded-xl border border-1" [routerLink]="['news-detail',{id:2}]" target="_blank">
+            <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-2-image.avif" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+            
+            <div class="mt-2" style="padding: 4%;">
+                <span class="font-thin" style="color: #ADADAD;">05/01/2024</span>
+                <p class="lg:text-base" style="font-family: MontserratSMBLD;">
+                  {{ "NEWS-BOX-4" | translate }}
+                </p>
+            </div>
+          </a>
+
+          <a class="lg:w-6/12 rounded-xl border border-1" [routerLink]="['news-detail',{id:3}]" target="_blank">
+              <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-3-image.avif" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+              
+              <div class="mt-2" style="padding: 4%;">
+                  <span class="font-thin" style="color: #ADADAD;">28/11/2023</span>
+                  <p class="lg:text-base" style="font-family: MontserratSMBLD;">
+                    {{ "NEWS-BOX-5" | translate }}
+                  </p>
+              </div>
+          </a>
+
+          <!-- not use code -->
+          <a class="lg:w-6/12 rounded-xl border border-1 invisible" [routerLink]="['news-detail',{id:3}]">
+            <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-3-image.avif" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+            
+            <div class="mt-2" style="padding: 4%;">
+                <span class="font-thin" style="color: #ADADAD;">04/04/2024</span>
+                <p class="lg:text-base" style="font-family: MontserratSMBLD;">
+                    ZKDigimax Pte. Ltd, a Joint Venture Between ZKTeco and DMMX, Begins 
+                    Production of Artificial Intelligence-Based Smart Retail Solutions 
+                    Serving 15 Countries
+                </p>
+            </div>
+          </a>
+          
+      </div>
+
+    </div>
+</section> 
+
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- RESPONSIVE MOBILE SCREEN -->
+<div class="lg:hidden md:hidden">
+
+    <!-- headline text & button -->
+    <div class="flex px-3 pt-20">
+      <div class="grow">
+        <p class="text-3xl gradient-text" style="font-family: MontserratBLD; color: #013A63;">{{ "NEWS-HEADLINE" | translate }}</p>
+      </div>
+    </div>
+  
+  
+    <!-- news cards -->
+    <div class="flex flex-col gap-7 px-2 pb-16">
+
+      <div class="w-full rounded-xl border border-1">
+        <a class="lg:w-6/12 rounded-xl border border-1" [routerLink]="['news-detail',{id:5}]" target="_blank">
+          <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-5-image.jpg" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+          
+          <div class="mt-2" style="padding: 4%;">
+            <span class="font-thin" style="color: #ADADAD;">20/04/2024</span>
+            <p class="text-sm" style="font-family: MontserratSMBLD;"> 
+              {{ "NEWS-BOX-1" | translate }}
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="w-full rounded-xl border border-1">
+        <a class="lg:w-6/12 rounded-xl border border-1" [routerLink]="['news-detail',{id:4}]" target="_blank">
+          <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-4-image.webp" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+          
+          <div class="mt-2" style="padding: 4%;">
+            <span class="font-thin" style="color: #ADADAD;">20/04/2024</span>
+            <p class="text-sm" style="font-family: MontserratSMBLD;"> 
+              {{ "NEWS-BOX-2" | translate }}
+            </p>
+          </div>
+        </a>
+      </div>
+  
+      <a class="lg:w-6/12 rounded-xl border border-1" [routerLink]="['news-detail',{id:1}]" target="_blank">
+        <div class="w-full rounded-xl border border-1">
+            <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-1-image.avif" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+            
+            <div class="mt-2" style="padding: 4%;">
+              <span class="font-thin" style="color: #ADADAD;">02/02/2024</span>
+              <p class="text-sm" style="font-family: MontserratSMBLD;">
+                {{ "NEWS-BOX-3" | translate }}
+              </p>
+            </div>
+          </div>
+      </a>
+  
+      <div class="w-full rounded-xl border border-1">
+        <a class="lg:w-6/12 rounded-xl border border-1" [routerLink]="['news-detail',{id:2}]" target="_blank">
+          <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-2-image.avif" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+          
+          <div class="mt-2" style="padding: 4%;">
+            <span class="font-thin" style="color: #ADADAD;">05/01/2024</span>
+            <p class="text-sm" style="font-family: MontserratSMBLD;">
+              {{ "NEWS-BOX-4" | translate }}
+            </p>
+          </div>
+        </a>
+      </div>
+  
+      <div class="w-full rounded-xl border border-1">
+        <a class="lg:w-6/12 rounded-xl border border-1" [routerLink]="['news-detail',{id:3}]" target="_blank">
+          <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-3-image.avif" alt="news-card-img" style="border-radius: 10px 10px 0 0;">
+          
+          <div class="mt-2" style="padding: 4%;">
+            <span class="font-thin" style="color: #ADADAD;">28/11/2023</span>
+            <p class="text-sm" style="font-family: MontserratSMBLD;"> 
+              {{ "NEWS-BOX-5" | translate }}
+            </p>
+          </div>
+        </a>
+      </div>
+
+      
+    </div>
+  
+  </div>

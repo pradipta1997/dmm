@@ -1,0 +1,191 @@
+/* ENGAGEMENT PLATFORM SOLUTION */
+.engagement-platform-solution {
+    background-image: url("https://dmmrnd.id/img-dmm/bg-engagement-platform-solution.avif");
+    height: 900px;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 6%;
+  }
+  
+  .EPS {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: white;
+  }
+  
+  .btn-eps {
+    background-image: linear-gradient(to right, #011c2f 0%, #042944 20%, #1b8bdb 80%);
+    transition: 1s;
+    background-size: 200% auto;
+  }
+  
+  .btn-eps:hover {
+    background-position: right center;
+    color: black;
+    background-image: linear-gradient(to right, #FFD731, #FFD731);
+  }
+
+  /* ---------------------------------------------------------------------------------------- */
+
+  /* RESPONSIVE BREAKPOINT */
+  @media (min-width: 768px) { /* <--for lg screen */
+    .media-query {
+      color: red;
+    }
+  }
+  @media (max-width: 1024px) { /* <--for md screen */
+    .media-query {
+      color: yellow;
+    }
+  }
+
+/* ---------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) { /* <--for lg screen */
+  .media-query-slider {
+    height: 650px;
+  }
+
+  .media-query-sliderBar {
+    background-color: white; 
+    width: 83%; 
+    height: 136px; 
+    margin: auto; 
+    translate: 0px 480px;
+  }
+
+  .media-query-logo {
+    /* width: 50px;  */
+    margin-top: 15px;
+  }
+
+  .media-query-text {
+    margin-top: 30px;
+  }
+
+  .media-query-button {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 1024px) { /* <--for md screen */
+  .media-query-slider {
+    height: 650px;
+  }
+
+  .media-query-sliderBar {
+    background-color: white; 
+    width: 93%; 
+    height: 136px; 
+    margin: auto; 
+    translate: 0px 480px;
+  }
+
+  /* .media-query-logo {
+    width: 90px;
+  } */
+
+  .media-query-text {
+    margin-top: 20px;
+  }
+
+  .media-query-button {
+    margin-left: 40px;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+
+.btn-grad {
+  background-image: linear-gradient(to right, #011c2f 0%, #042944 20%, #1b8bdb 80%);
+  transition: 1s;
+  background-size: 200% auto;
+  color: white;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: black;
+  background-image: linear-gradient(to right, #FFD731, #FFD731);
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* FONT IMPORT */
+@font-face {
+  font-family: "MontserratBLD";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: "MontserratSMBLD";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-SemiBold.otf');
+}
+
+@font-face {
+  font-family: "MontserratBI";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: "MontserratBL";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Black.otf');
+}
+
+@font-face {
+  font-family: "MontserratMDM";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Medium.otf');
+}
+
+@font-face {
+  font-family: "MontserratREG";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: "MontserratLGT";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+  font-family: "MontserratXLGT";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-ExtraLight.otf');
+}
+
+@font-face {
+  font-family: "MontserratTH";
+  src: url('https://dmmrnd.id/img-dmm/fonts/Montserrat-Thin.otf');
+}
+
+/* ---------------------------------------------------------------------- */
+
+
+
+/* MEDIA QUERY RESPONSIVE (MOBILE SCREEN) */
+@media (min-width: 300px) and (max-width: 700px) { 
+
+  .desktop-screen-hidden-if-mobile {
+    display: none;
+  }
+
+  /* .mobile-border {
+    border: 2px solid red;
+  } */
+
+  .media-query-sliderBar-mobile {
+    background-color: white; 
+    width: 80%; 
+    height: 285px; 
+    margin: auto; 
+    translate: 0px 60px;
+  }
+
+  .mobile-background-height {
+    height: 600px;
+  }
+
+}

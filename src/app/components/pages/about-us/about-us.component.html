@@ -1,0 +1,393 @@
+<!-- NAVBAR -->
+<app-navbar></app-navbar>
+
+<!-- ABOUT US BANNER (DESKTOP) -->
+<div id="au" class="about-us    desktop-screen-hidden-if-mobile">
+    <div class="grid grid-cols-2 text-white gap-5 px-24 items-center h-full">
+
+        <!-- left panel -->
+        <div class="grid grid-rows-1">
+            <p class="lg:text-5xl md:text-3xl" style="font-family: MontserratSMBLD;">{{ "AU-BANNER-HEADLINE" | translate }}</p>
+            <p class="lg:text-lg md:text-sm" style="font-family: MontserratREG;">
+                {{ "AU-BANNER-SUBHEADLINE" | translate }} 
+            </p>
+        </div>
+
+        <!-- right panel -->
+        <div class="grid grid-rows-2 gap-3 mt-20">
+
+            <div class="relative grid grid-rows-1 p-12">
+                <div class="absolute w-full h-full rounded-xl" style="background-color: #013A63; mix-blend-mode: overlay;"></div>
+                <div class="flex gap-2">
+                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/about-us-icon-visi.avif" alt="visi icon" style="width: 40px; height: 40px;">
+                    <p class="text-3xl text-white" style="font-family: MontserratSMBLD;">{{ "AU-BANNER-BOX1-a" | translate }}</p>
+                </div>
+                <p class="lg:text-base md:text-sm text-white" style="font-family: MontserratLGT;">
+                    {{ "AU-BANNER-BOX1-b" | translate }}
+                </p>
+            </div>
+
+            
+
+            <div class="relative grid grid-rows-1 p-12">
+                <div class="absolute w-full h-full rounded-xl" style="background-color: #013A63; mix-blend-mode: overlay;"></div>
+                <div class="flex gap-2">
+                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/about-us-icon-misi.avif" alt="misi icon" style="width: 40px; height: 40px;">
+                    <p class="text-3xl text-white" style="font-family: MontserratSMBLD;">{{ "AU-BANNER-BOX2-a" | translate }}</p>
+                </div>
+                <p class="lg:text-base md:text-sm text-white" style="font-family: MontserratLGT;">
+                    {{ "AU-BANNER-BOX2-b" | translate }}
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ABOUT US BANNER (MOBILE) -->
+<div class="lg:hidden md:hidden">
+    <div class="about-us-bg-m pt-20">
+
+        <div class="grid grid-rows-3 text-white px-2 pb-4 items-center h-full">
+
+            <div class="grid grid-rows-1">
+                <p class="text-4xl" style="font-family: MontserratBLD;">{{ "AU-BANNER-HEADLINE" | translate }}</p>
+                <p class="text-sm" style="font-family: MontserratREG;">
+                    {{ "AU-BANNER-SUBHEADLINE" | translate }}
+                </p>
+            </div>
+
+
+            <div class="relative grid grid-rows-1 p-3 mt-3">
+                <div class="absolute w-full h-full rounded-xl" style="background-color: #013A63; mix-blend-mode: overlay;"></div>
+                <div class="flex gap-2">
+                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/about-us-icon-visi.avif" alt="visi icon" style="width: 40px; height: 40px;">
+                    <p class="text-3xl text-white" style="font-family: MontserratSMBLD;">{{ "AU-BANNER-BOX1-a" | translate }}</p>
+                </div>
+                <p class="lg:text-base md:text-sm text-white" style="font-family: MontserratLGT;">
+                    {{ "AU-BANNER-BOX1-b" | translate }}
+                </p>
+            </div>
+
+            <div class="relative grid grid-rows-1 p-3">
+                <div class="absolute w-full h-full rounded-xl" style="background-color: #013A63; mix-blend-mode: overlay;"></div>
+                <div class="flex gap-2">
+                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/about-us-icon-visi.avif" alt="visi icon" style="width: 40px; height: 40px;">
+                    <p class="text-3xl text-white" style="font-family: MontserratSMBLD;">{{ "AU-BANNER-BOX2-a" | translate }}</p>
+                </div>
+                <p class="lg:text-base md:text-sm text-white" style="font-family: MontserratLGT;">
+                    {{ "AU-BANNER-BOX2-b" | translate }}
+                </p>
+            </div>
+
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+<!-- TIMELINE MILESTONE -->
+<!-- <div class="">
+
+    <div class="my-24 px-24" style=" border: 5px solid gold; height: 630px;">
+
+        <div class="grid grid-cols-10 gap-2">
+            <div class="text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2019</div>
+            <div class=" text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2020</div>
+            <div class=" text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2021</div>
+            <div class=" text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2022</div>
+            <div class=" text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2023</div>
+            <div class=" text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2023</div>
+            <div class=" text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2023</div>
+            <div class=" text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2023</div>
+            <div class=" text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2023</div>
+            <div class=" text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2023</div>
+            <div class=" text-3xl" style="font-family: MontserratSMBLD; color: #013A63;">2023</div>
+        </div> 
+
+        <div class="grid grid-cols-10 gap-2">
+            <div class="">
+                <span>|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span><span style="margin-left: 28.5px;">|</span> <span style="margin-left: 28.5px;">|</span>
+                <span style="margin-left: 28.5px;">|</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4" style="height: 580px;">
+
+            <div class="absolute -ml-0.5 w-px h-3/4 bg-gray-300"></div> 
+
+            <div class="grid grid-rows-4 gap-2">
+                <div class="col-start-1 translate-y-36 h-56 px-8">
+                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-card-img.avif" alt="" class="w-52 rounded-xl">
+                    <p class="text-base" style="font-family: MontserratSMBLD;">IPO</p>
+                    <p class="text-xs" style="font-family: MontserratLGT; color: #616161;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="absolute -ml-0.5 w-px h-3/4 bg-gray-300" style="left: 27%;"></div>
+
+            <div class="grid grid-rows-4 gap-2">
+                <div class="col-start-1 h-60 px-8">
+                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-card-img.avif" alt="" class="w-52 rounded-xl">
+                    <p class="text-base" style="font-family: MontserratSMBLD;">Peluncuran Program Terbaru</p>
+                    <p class="text-xs" style="font-family: MontserratLGT; color: #616161;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="col-start-1 h-64 px-8 -translate-y-28">
+                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-card-img.avif" alt="" class="w-52 rounded-xl">
+                    <p class="text-base" style="font-family: MontserratSMBLD;">Pemilihan Program Terbaik</p>
+                    <p class="text-xs" style="font-family: MontserratLGT; color: #616161;">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusamus, explicabo veli.
+                    </p>
+                </div>
+            </div>
+
+            <div class="absolute left-2/4 -ml-0.5 w-px h-3/4 bg-gray-300"></div>
+            
+            <div class="grid grid-rows-4 gap-2">
+                <div class="col-start-1 h-96 px-8">
+                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-card-img.avif" alt="" class="w-52 rounded-xl">
+                    <p class="text-base" style="font-family: MontserratSMBLD;">Penerima Penghargaan Perusahaan Terbaik</p>
+                    <p class="text-xs" style="font-family: MontserratLGT; color: #616161;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, voluptates error possimus placeat amet commodi nulla eos vero cumque veniam aliquid voluptas nostrum libero, vitae distinctio eligendi consectetur provident totam!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, odit!
+                    </p>
+                </div>
+            </div>
+
+            <div class="absolute -ml-0.5 w-px h-3/4 bg-gray-300" style="right: 29%;"></div>
+
+            <div class="grid grid-rows-4 gap-0">
+                <div class="col-start-1 h-60 px-8">
+                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-card-img.avif" alt="" class="w-52 rounded-xl">
+                    <p class="text-base" style="font-family: MontserratSMBLD;">Go Internasional</p>
+                    <p class="text-xs" style="font-family: MontserratLGT; color: #616161;">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et accusamus, explicabo velit assumenda odit similique.
+                    </p>
+                </div>
+
+                <div class="col-start-1 h-60 px-8 -translate-y-28">
+                    <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/news-card-img.avif" alt="" class="w-52 rounded-xl">
+                    <p class="text-base" style="font-family: MontserratSMBLD;">Melebarkan Sayap Mancanegara</p>
+                    <p class="text-xs" style="font-family: MontserratLGT; color: #616161;">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="absolute right-28 -ml-0.5 w-px h-3/4 bg-gray-300"></div>
+
+        </div>
+
+    </div>
+
+</div> -->
+
+<!-- TEST HORIZONTAL BOX -->
+<!-- <div class="wrapper gap-52">
+
+    <div class="text-3xl" style="font-family: MontserratSMBLD; color: #013A63;  border: 2px solid blue;">2015</div>
+    <div class="text-3xl" style="font-family: MontserratSMBLD; color: #013A63; border: 2px solid blue;">2016</div>
+    <div class="text-3xl" style="font-family: MontserratSMBLD; color: #013A63; border: 2px solid blue;">2017</div>
+    <div class="text-3xl" style="font-family: MontserratSMBLD; color: #013A63; border: 2px solid blue;">2018</div>
+    <div class="text-3xl" style="font-family: MontserratSMBLD; color: #013A63;  border: 2px solid blue;">2019</div>
+    <div class="text-3xl" style="font-family: MontserratSMBLD; color: #013A63; border: 2px solid blue;">2020</div>
+    <div class="text-3xl" style="font-family: MontserratSMBLD; color: #013A63; border: 2px solid blue;">2021</div>
+    <div class="text-3xl" style="font-family: MontserratSMBLD; color: #013A63; border: 2px solid blue;">2022</div>
+    <div class="text-3xl" style="font-family: MontserratSMBLD; color: #013A63; border: 2px solid blue;">2023</div>
+    
+</div> -->
+
+
+
+
+
+<!-- STATISTIK UTAMA (DESKTOP) -->
+<div class="px-24    desktop-screen-hidden-if-mobile">
+    <div class="statistik my-24 rounded-xl">
+
+        <div class="text-center lg:translate-y-11 md:translate-y-14">
+            <div class="flex flex-col gap-10">
+                <div class="lg:text-3xl md:text-2xl sm:text-xl text-white" style="font-family: MontserratSMBLD;">{{ "AU-STATISTICS-HEADLINE" |translate }}</div>
+
+                <div class="col-start-1 col-end-7 px-9 rounded-xl">
+                    <div class="grid grid-cols-3 gap-4" #numbersContainer>
+                      <div class="lg:text-4xl text-white" style="font-family: MontserratSMBLD;">
+                        {{ count1 | number }}<br>
+                        <span class="text-base" style="font-family: MontserratLGT;">{{ "AU-STATISTICS-POINT1" |translate }}</span>
+                      </div>
+                      <div class="lg:text-4xl text-white" style="font-family: MontserratSMBLD;">
+                        {{ count2 | number }}<br>
+                        <span class="text-base" style="font-family: MontserratLGT;">{{ "AU-STATISTICS-POINT2" |translate }}</span>
+                      </div>
+                      <div class="lg:text-4xl text-white" style="font-family: MontserratSMBLD;">
+                        {{ count3 | number }}<br>
+                        <span class="text-base" style="font-family: MontserratLGT;">{{ "AU-STATISTICS-POINT3" |translate }}</span>
+                      </div>
+                    </div>
+                </div>
+
+            </div>  
+        </div>
+
+    </div>
+</div>
+
+<!-- STATISTIK UTAMA (MOBILE) -->
+<div class="lg:hidden md:hidden">
+
+    <div class="px-3">
+        <div class="statistik-bg-m mt-3 rounded-lg">
+            <div class="text-3xl text-white items-center justify-center text-center pt-10" style="font-family: MontserratBLD;">{{ "AU-STATISTICS-HEADLINE" | translate }}</div>
+
+
+            <div class="flex flex-col relative pt-0 w-10/12 h-96 py-0 rounded-xl text-white text-center" style="margin: 0 auto;" #numbersContainer2>
+
+                  <!-- <div class="absolute w-full h-full rounded-xl -translate-y-0" style="background-color: #013A63; mix-blend-mode: overlay;"></div> -->
+          
+                  <p class="text-3xl pt-4" style="font-family: MontserratMDM;">{{ count1 | number }}</p>
+                  <p class="text-base" style="font-family: MontserratREG;">{{ "AU-STATISTICS-POINT1" | translate }}</p>
+          
+                  <p class="text-lg" style="font-family: MontserratREG;">______________</p>
+          
+                  <p class="text-3xl pt-2" style="font-family: MontserratMDM;">{{ count2 | number }}</p>
+                  <p class="text-base" style="font-family: MontserratREG;">{{ "AU-STATISTICS-POINT2" | translate }}</p>
+          
+                  <p class="text-lg" style="font-family: MontserratREG;">______________</p>
+          
+                  <p class="text-3xl pt-2" style="font-family: MontserratMDM;">{{ count3 | number }}</p>
+                  <p class="text-base" style="font-family: MontserratREG;">{{ "AU-STATISTICS-POINT3" | translate }}</p>
+          
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+
+
+
+<!-- LAYANAN SECARA MENYELURUH, TITIK LAYANAN DISELURUH INDONESIA, RESPON TANGGAP (DESKTOP) -->
+<div class="grid grid-rows-3 text-left px-52 gap-10    desktop-screen-hidden-if-mobile">
+    
+    <div class="grid grid-cols-3 gap-10">
+        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/layanan-secara-menyeluruh.avif" alt="" class="rounded-xl" style="width: 1309px; height: 300px;"> <!--Jika sudah ada asset asli, css ini tdk perlu-->
+        
+        <div class="col-span-2 items-center" style="margin: auto 0;">
+            <p class="lg:text-4xl md:text-xl" style="font-family: MontserratSMBLD; color: #013A63;">{{ "AU-END-TO-END-HEADLINE" | translate }}</p>
+            <p class="lg:text-base md:text-sm leading-snug" style="font-family: MontserratREG;">
+                {{ "AU-END-TO-END-DESC" | translate }}
+            </p>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-10">
+        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/titik-layanan-di-seluruh-Indonesia.avif" alt="" class="rounded-xl" style="width: 1309px; height: 300px;"> <!--Jika sudah ada asset asli, css ini tdk perlu-->
+        
+        <div class="col-span-2 items-center" style="margin: auto 0;">
+            <p class="lg:text-4xl md:text-xl" style="font-family: MontserratSMBLD; color: #013A63;">{{ "AU-NATIONAL-SERVICE-COVERAGE-HEADLINE" | translate }}</p>
+            <p class="lg:text-base md:text-sm leading-snug" style="font-family: MontserratREG;">
+                {{ "AU-NATIONAL-SERVICE-COVERAGE-DESC" | translate }}
+            </p>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-10">
+        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/respon-tanggap.avif" alt="" class="rounded-xl" style="width: 1309px; height: 300px;"> <!--Jika sudah ada asset asli, css ini tdk perlu-->
+        
+        <div class="col-span-2 items-center" style="margin: auto 0;">
+            <p class="lg:text-4xl md:text-xl" style="font-family: MontserratSMBLD; color: #013A63;">{{ "AU-FAST-RESPONSE-HEADLINE" | translate }}</p>
+            <p class="lg:text-base md:text-sm leading-snug" style="font-family: MontserratREG;">
+                {{ "AU-FAST-RESPONSE-DESC" | translate }}
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<!-- LAYANAN SECARA MENYELURUH, TITIK LAYANAN DISELURUH INDONESIA, RESPON TANGGAP (MOBILE) -->
+<div class="lg:hidden md:hidden">
+
+    <div class="flex flex-col gap-3 mt-10 px-3">
+        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/layanan-secara-menyeluruh.avif" alt="" class="rounded-xl" style="margin: 0 auto;">
+
+        <div class="flex flex-col">
+            <p class="text-3xl text-center" style="font-family: MontserratBLD; color: #013A63;">{{ "AU-END-TO-END-HEADLINE" | translate }}</p>
+            <p class="text-base text-center" style="font-family: MontserratREG;">
+                {{ "AU-END-TO-END-DESC" | translate }}
+            </p>
+        </div>
+    </div>
+
+    <div class="flex flex-col gap-3 pt-4 px-3">
+        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/titik-layanan-di-seluruh-Indonesia.avif" alt="" class="rounded-xl" style="margin: 0 auto;">
+
+        <div class="flex flex-col">
+            <p class="text-3xl text-center" style="font-family: MontserratBLD; color: #013A63;">{{ "AU-NATIONAL-SERVICE-COVERAGE-HEADLINE" | translate }}</p>
+            <p class="text-base text-center" style="font-family: MontserratREG;">
+                {{ "AU-NATIONAL-SERVICE-COVERAGE-DESC" | translate }}
+            </p>
+        </div>
+    </div>
+
+    <div class="flex flex-col gap-3 pt-4 px-3">
+        <img ngOptimizedImage loading="lazy" src="https://dmmrnd.id/img-dmm/respon-tanggap.avif" alt="" class="rounded-xl" style="margin: 0 auto;">
+
+        <div class="flex flex-col">
+            <p class="text-3xl text-center" style="font-family: MontserratBLD; color: #013A63;">{{ "AU-FAST-RESPONSE-HEADLINE" | translate }}</p>
+            <p class="text-base text-center" style="font-family: MontserratREG;">
+                {{ "AU-FAST-RESPONSE-DESC" | translate }} 
+            </p>
+        </div>
+    </div>
+
+    <a href="news-many">
+        <div class="flex items-center justify-center h-14">
+          <button type="button" class="btn-grad text-sm text-white rounded-lg px-4 py-2.5 me-2" style="font-family: MontserratSMBLD;">{{ "NEWS-BUTTON" | translate }}</button>
+        </div>
+    </a>
+
+</div>
+
+
+<!-- NEWS -->
+<app-news></app-news>
+
+<!-- ABOUT US -->
+<app-contact-us></app-contact-us>
+
+<!-- FOOTER -->
+<!-- <div class="hidden"> -->
+    <app-footer></app-footer>
+<!-- </div> -->
+
+  
+  <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+  <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+  <!-- ---------------------------------------------------------------------------------------------------------------------------------- -->
+  
+  
+  <!-- RESPONSIVE MOBILE SCREEN -->
+  <div class="lg:hidden md:hidden">
+  
+  </div>
